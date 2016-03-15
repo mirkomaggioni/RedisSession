@@ -1,0 +1,10 @@
+﻿
+@{
+    ViewBag.Title = "SessionDatas";
+}
+
+<h2>@ViewBag.Title.</h2>
+<label style="margin-right: 5px;">Username:</label>@RedisSession.BusinessLayer.ApplicationSession.UserName<br />
+<label style="margin-right: 5px;">Email: </label>@RedisSession.BusinessLayer.ApplicationSession.Email<br />
+<label style="margin-right: 5px;">Login date: </label>@RedisSession.BusinessLayer.ApplicationSession.StartDate.ToString()<br />
+
